@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--nombre y icono de la pestaña-->
+        <link rel="shortcut icon" href="img/azucar morena sin fondo.png" type="image/x-icon">
+        <!--librerias de iconos, css y nuestro css-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <!--nombre de la pestaña-->
+        <title>Azucar Morena</title>
+
+    </head>
+    <body>
+        
+        <!--header - CABESERA - Navegacion-->
+
+        <header class="header" id="header">
+            <nav class="nav container">
+
+                <!--enlase y alt es cuando falla la imagen-->
+
+                <a href="" class="navL">
+
+                    <img src="img/azucar morena sin fondo.png" alt="Azucar Morena" class="navL-img"> 
+                    "AZUCAR MORENA"
+
+                </a>
+
+
+                <!--el id es para usarlo en el js -->
+                <div class="navM" id="nav-menu">
+
+                    <!--la lista del menu-->
+                    <ul class="navList"> 
+
+
+                        <!--menu del header-->
+                        <li class="navItem">
+
+                            <a href="#home" class="navLink active-link">
+                                Inicio
+                            
+                            </a>
+
+                        </li>
+
+                        <li class="navItem">
+
+                            <a href="#about" class="navLink ">
+                                Nosotros
+                            
+                            </a>
+
+                        </li>
+
+                        <li class="navItem">
+
+                            <a href="#product" class="navLink ">
+                                Productos
+                            
+                            </a>
+
+                        </li>
+
+                        <li class="navItem">
+
+                            <a href="#new" class="navLink ">
+                                Nuevos
+                            </a>
+                        </li>    
+                        
+
+                        <li class="navItem">
+
+                            <a href="#order" class="navLink ">
+                                PEDIDOS
+                            
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="navclose" id="nav-close">
+                        <!--para agregar un icons desde la libreria-->
+                        <i class="bx bx-x"></i>
+                    </div>
+                    <!--es para el responsb-->
+                    <!--los id son los nombres para agregar un icons desde la libreria-->
+                    <DIV  class="navToggle" id="nav-toggle">
+    
+                        <!--este es el nombres para agregar un icons desde la libreria-->
+                        <i class="bx bx-grid-alt"></i>
+                    </DIV>
+                </div>
+                
+            </nav>
+
+        </header>
+
+        <main class="main">
+            <!--para segmentar el codigo usare secsiones y pondre contenido en mi pag-->
+
+            <!--HOME-->
+
+            <section class="home container" id="home">
+
+                <div class="swiper home-swipwe">
+
+                    <div class="swiper-wrapper">
+
+                        <section>
+                            <div class="homecont grid">
+
+                                <div class="hometata">
+                                    <h1 class="hometitle">NUESTRAS <br>MEJORES <br>RECETAS! !</h1>
+
+                                    <!--para la descripsioon del home-->
+                                    <P class="homedes">
+                                        Descubre los sabores más exquisitos y sorprendentes con nuestras recetas seleccionadas 
+                                        especialmente para ti. 
+                                        <br>¡Cada plato es una obra maestra culinaria!
+                                        
+                                    </P>
+
+
+                                    <!--para LOS BOTONES QUE USARE EN UN FUTURO SIN PRESION JAJA-->
+                                    <DIV class="homebut">
+                                        <a href="#servicios1" class="button">servicio</a>
+                                        <a href="#productos1" class="button">productos</a>
+                                    </DIV>
+                                </div>
+
+                                <!--coloque la imagen al lado COMO UNA VISTA MAS PRESENTABLE -->
+                                <div class="homegroup">
+
+                                    <img src="img/azucar morena sin fondo.png" alt="" class="homeimg">
+
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--ABOUT-->
+            <section class="section about" id="about">
+                <!--defini 2 clases con los containers para diferenciarlos en js-->
+
+                <div class="aboutcontainer container grid">
+                    <img src="img/azucar morena redes socuales logo sin fondo.png" alt="" class="aboutimg">
+                    <div class="aboutdata">
+                        <H2 class="sectiontitle abouttitle">NOSOTROS <br>SOMOS</H2>
+                        <P class="aboutdescription"> Somos un equipo apasionado por la pasteleria, dedicado a crear experiencias culinarias únicas. 
+                            Nuestra misión es inspirar a los amantes de la pasteleria con recetas auténticas, 
+                            ingredientes frescos y una atención al detalle que marca la diferencia. Con años de 
+                            experiencia y un enfoque innovador, estamos aquí para compartir nuestro amor por la pasteleria contigo..! </P>
+                        <a href="#" class="button" >Conocenos más</a>
+
+                    </div>
+                </div>
+            </section>
+            <br id="servicios1">
+            
+            <!-- SECCIÓN PARA UNA BREVE DESCRIPCION DE SERVICIOS -->
+            <section id="servicios">
+                <h2>Servicios</h2>
+                <p>
+                    Ofrecemos una amplia gama de servicios, desde clases de pateles personalizados hasta 
+                    asesoramiento para eventos especiales. Nuestro equipo está aquí para ayudarte a
+                    tener lo mejor de nuestra pasteleria para cuando lo desees.
+                </p>
+            </section>
+            <br id="productos1">
+
+            <!-- SECCIÓN PARA UNA BREVE DESCRIPCION DE PRODUCTOS -->
+            <section id="productos">
+                <h2>Productos</h2>
+                <p>
+                    Disponemos de una selección de productos de alta calidad para cocinar. Desde ingredientes 
+                    frescos hasta utensilios de cocina profesionales, tenemos todo lo que necesitas para 
+                    preparar las mejores recetas.
+                </p>
+            </section>
+
+            <!--CATEGORIAS-->
+
+            <section class="section category">
+
+                <h2 class="sectiontitle"> Te ofrecemos las mejores categorias</h2>
+
+                <div class="categorycontainer container grid">
+                    
+                    <div class="categorydata">
+                        
+                        <h3 class="categorytitle"> BOX DULCEROS</h3>
+                        <img src="img/box dulcero 2.png" alt="" class="categoryimg">
+                        <p class="categorydescription"> ESTOS BOX SON LOS MAS PEDIDOS DE LA FRANQUISIA, 
+                        SU PEDIDO ES EXCLUSIVO Y PREFERIDO, POR LO QUE SE LOS PIDEN CON RESERVACION 
+                        CON 2 DIAS DE ANTICIPACION.</p>
+                        <BR></BR>
+                        
+                    
+                    </div>
+
+                    <div class="categorydata">
+                        
+                        <h3 class="categorytitle"> TORTAS COMUNES</h3>
+                        <img src="img/torta comun 5.png" alt="" class="categoryimg">
+                        <p class="categorydescription"> SON LAS MAS PEDIDAS PARA ESTAR EN ESOS MOMENTOS UNICOS, 
+                        SU PEDIDO ES NOTORIO CUANDO LA DELICADEZA ES LA CLAVE CUANDO FALLA 
+                        EL SABER COMO TENER EL DECORADO PERFECTO PARA QUIEN QUIERES DARLE LO MEJOR. 
+                        <BR></BR>
+                        LA RESERVACION ES CON 2 DIAS DE ANTICIPACION.</p>
+                        <BR></BR> 
+                    
+                    </div>
+
+                    <div class="categorydata">
+                        
+                        <h3 class="categorytitle"> TORTAS DE CUMPLEAÑOS <br> </h3>
+                        <img src="img/torta de cumpleaños comun 2.png" alt="" class="categoryimg">
+                        <p class="categorydescription"> SON LAS MAS PEDIDAS PARA ESTAR EN ESOS MOMENTOS UNICOS, 
+                        SU PEDIDO ES NOTORIO CUANDO LA DELICADEZA ES LA CLAVE CUANDO FALLA 
+                        EL SABER COMO TENER EL DECORADO PERFECTO PARA QUIEN QUIERES DARLE LO MEJOR. 
+                        LA RESERVACION ES CON 2 DIAS DE ANTICIPACION.</p>
+                                    
+                    </div>   
+                </div>
+            </section>
+
+        
+            <!--PRODUCTS -->
+            <section class="section Producto" id="product">
+                <h2 class="sectiontitle"> Productos</h2>
+
+                <div class="productcontainer container grid">
+
+                    <div class="productcontent">
+                        <img src="img/torta de cumpleaños comun 3.png" alt="" class="productimg" />
+                        <h3 class="producttitle">TORTA</h3>
+                        <span class="productsubtitle">cumpleaños</span>
+                        <span class="productprice">$10000</span>
+                        <button class="button productbutton">
+                            <i class="bx bx-cart-alt producticon"></i>
+                        </button>
+
+                    </div>
+                    <div class="productcontent">
+                        <img src="img/torta de cumpleaños personalizada 12.png" alt="" class="productimg" />
+                        <h3 class="producttitle">TORTA</h3>
+                        <span class="productsubtitle">personalizada</span>
+                        <span class="productprice">$10000</span>
+                        <button class="button productbutton">
+                        <i class="bx bx-cart-alt producticon"></i>
+                        </button>
+                    </div>
+                    <div class="productcontent">
+                        <img src="img/torta de cumpleaños personalizada 5.png" alt="" class="productimg" />
+                        <h3 class="producttitle">TORTA</h3>
+                        <span class="productsubtitle">personalizada</span>
+                        <span class="productprice">$10000</span>
+                        <button class="button productbutton">
+                        <i class="bx bx-cart-alt producticon"></i>
+                        </button>
+                    </div>
+                    <div class="productcontent">
+                        <img src="img/torta personalizada 14.png" alt="" class="productimg" />
+                        <h3 class="producttitle">TORTA</h3>
+                        <span class="productsubtitle">personalizada</span>
+                        <span class="productprice">$10000</span>
+                        <button class="button productbutton">
+                        <i class="bx bx-cart-alt producticon"></i>
+                        </button>
+                    </div>
+                    <div class="productcontent">
+                        <img src="img/torta de cumpleaños personalizada 10.png" alt="" class="productimg" />
+                        <h3 class="producttitle">TORTA</h3>
+                        <span class="productsubtitle">cumpleaños</span>
+                        <span class="productprice">$10000</span>
+                        <button class="button productbutton">
+                        <i class="bx bx-cart-alt producticon"></i>
+                        </button>
+                    </div>
+                    <div class="productcontent">
+                        <img src="img/torta personalizada 8.png" alt="" class="productimg" />
+                        <h3 class="producttitle">TORTA</h3>
+                        <span class="productsubtitle">personalizada</span>
+                        <span class="productprice">$10000</span>
+                        <button class="button productbutton">
+                        <i class="bx bx-cart-alt producticon"></i>
+                        </button>
+                </div>
+            </SEction>
+
+            <!--LO QUE SE VIENE DE NUEVO-->
+            <section class="section new" id="new">
+                <h2 class="sectiontitle">Nuevos</h2>
+
+                    <div class="newcontainer container">
+                        <div class="swiper new-swiper">
+                            <div class="swiper-wrapper">
+                        
+                                <div class="newcontent swiper-slide">
+                                    <div class="newtag">Nuvo</div>
+                                    <img src="img/box dulcero 7.png" alt="" class="newimg">
+                                    <h3 class="newtitle">BOX</h3>
+                                    <span class="newsubtitle">personalizado</span>
+                                    <div class="newprices">
+                                        <span class="newprice">$8000</span>
+                                        <span class="newdiscount">$9000</span>
+                                        <button class="button newbutton">
+                                            <i class="bx bx-cart-alt newicon"></i>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="newcontent swiper-slide">
+                                    <div class="newtag">Nuvo</div>
+                                    <img src="img/box dulcero 5.png" alt="" class="newimg">
+                                        <h3 class="newtitle">BOX</h3>
+                                        <span class="newsubtitle">personalizado</span>
+                                        <div class="newprices">
+                                            <span class="newprice">$8000</span>
+                                            <span class="newdiscount">$9000</span>
+                                            <button class="button newbutton">
+                                                <i class="bx bx-cart-alt newicon"></i>
+                                            </button>
+                                        </div>
+                                </div>
+
+                                <div class="newcontent swiper-slide">
+                                    <div class="newtag">Nuvo</div>
+                                    <img src="img/box dulcero 6.png" alt="" class="newimg">
+                                        <h3 class="newtitle">BOX</h3>
+                                        <span class="newsubtitle">personalizado</span>
+                                        <div class="newprices">
+                                            <span class="newprice">$8000</span>
+                                            <span class="newdiscount">$9000</span>
+                                            <button class="button newbutton">
+                                                <i class="bx bx-cart-alt newicon"></i>
+                                            </button>
+                                        </div>
+                                </div>
+
+                            </div>
+
+                            <div class="swiper-wrapper">
+                        
+                                <div class="newcontent swiper-slide">
+                                    <div class="newtag">Nuvo</div>
+                                    <img src="img/box dulcero 4.png" alt="" class="newimg">
+                                        <h3 class="newtitle">BOX</h3>
+                                        <span class="newsubtitle">personalizado</span>
+                                        <div class="newprices">
+                                            <span class="newprice">$8000</span>
+                                            <span class="newdiscount">$9000</span>
+                                            <button class="button newbutton">
+                                                <i class="bx bx-cart-alt newicon"></i>
+                                            </button>
+                                        </div>
+                                </div>
+
+                                <div class="newcontent swiper-slide">
+                                    <div class="newtag">Nuvo</div>
+                                    <img src="img/box dulcero 3.png" alt="" class="newimg">
+                                        <h3 class="newtitle">BOX</h3>
+                                        <span class="newsubtitle">personalizado</span>
+                                        <div class="newprices">
+                                            <span class="newprice">$8000</span>
+                                            <span class="newdiscount">$9000</span>
+                                            <button class="button newbutton">
+                                                <i class="bx bx-cart-alt newicon"></i>
+                                            </button>
+                                        </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+            <!--LOS PEDIDOS-->
+            <section class="section order" id="order">
+                <h2 class="sectiontitle">PEDIDOS</h2>
+
+                <div class="ordercontainer container grid">
+                    <div class="swiper order-swiper">
+                        
+                        <!-- FORMULARIO PARA SOLICITAR PEDIDOS -->
+                        <form id="pedidoForm" action="/enviar-pedido" method="post">
+                            <p>
+                                <label for="name">Nombre y Apellido:</label>
+                                <input type="text" id="name" name="nombre_apellido" required />
+                            </p>
+                            <p>
+                                <label for="email">Correo Electrónico:</label>
+                                <input type="email" id="email" name="correo_electronico" required />
+                            </p>
+                            <p>
+                                <label for="mensaje">Mensaje:</label>
+                                <textarea id="mensaje" name="mensaje" rows="6" placeholder="Escriba su pedido aquí..." required></textarea>
+                            </p>
+                            <!-- Botón de enviar pedido -->
+                            <p>
+                                <button type="submit">Enviar Pedido</button>
+                            </p>
+                            
+                            <!-- Mensaje de confirmación (oculto por defecto) -->
+                            <p id="mensajeConfirmacion" style="display:none; color:green;">
+                                El mensaje con su pedido fue enviado correctamente.
+                            </p>
+
+                        </form>
+                    </div>
+                </div>
+            </section>
+                
+
+            
+
+        </main>
+
+
+        <!--FOOTER-->
+        <footer class="footer section">
+            <div class="footercontainer container grid">
+                <div class="footercontent">
+                    <a href="#" class="footerL">
+                        <img src="img/azucar morena sin fondo.png" alt="" class="footerL-img" />
+                        "Azucar Morena"
+                    </a>
+        
+                    <p class="footerdescription">
+                        ¡Síguenos en nuestras redes sociales y descubre todo lo que tenemos para ofrecer! 
+                        Comparte con nosotros tus experiencias al probar nuestras delicias, mantente al tanto de nuestras 
+                        recetas más recientes, promociones exclusivas y mucho más. 
+                        <br />
+                        ¡Únete a nuestra comunidad y sé parte de Azúcar Morena en Facebook, Instagram y Twitter!
+                    </p>
+        
+                    <div class="footersocial">
+                        <a href="#" target="_blank" class="footersocial-link">
+                            <i class="bx bxl-facebook"></i>
+                        </a>
+                        <a href="#" target="_blank" class="footersocial-link">
+                            <i class="bx bxl-instagram-alt"></i>
+                        </a>
+                        <a href="#" target="_blank" class="footersocial-link">
+                            <i class="bx bxl-twitter"></i> <!-- no encontre el logo actual "X" jajaja-->
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+    
+            <span class="footercopy">AZUCAR MORENA 1.0</span>
+        </footer>
+    
+
+
+    </body>
+
+    <script>
+        // JavaScript para mostrar el mensaje de confirmación
+        document.getElementById("pedidoForm").addEventListener("submit", function(event) {
+        event.preventDefault(); // Evita que el formulario se envíe automáticamente
+    
+        // Muestra el mensaje de confirmación
+        document.getElementById("mensajeConfirmacion").style.display = "block";
+        
+        // Aquí podrías agregar el envío del formulario vía AJAX o redirigir a otra página
+        });
+    </script>
+</html>
